@@ -13,7 +13,7 @@ jobs:
       contents: write
     steps:
       - name: Harden the runner (Audit all outbound calls)
-        uses: step-security/harden-runner@v2
+        uses: step-security/harden-runner@46b06cea07f9e64621fdf066ba77ac6915163d43 # v2.23.0
         with:
           egress-policy: audit
 
@@ -69,7 +69,7 @@ jobs:
         version: ${{ github.actor == 'dependabot[bot]' && fromJSON('["latest"]') || fromJSON('["latest", "1.224.1"]') }}
     steps:
       - name: Harden the runner (Audit all outbound calls)
-        uses: step-security/harden-runner@v2
+        uses: step-security/harden-runner@46b06cea07f9e64621fdf066ba77ac6915163d43 # v2.23.0
         with:
           egress-policy: audit
 
