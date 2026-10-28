@@ -30,7 +30,7 @@
     "@actions/core": "^2.0.0",
     "axios": "^1.20.0",
     "@actions/io": "^2.0.0",
-    "@actions/tool-cache": "^3.0.0",
+    "@actions/tool-cache": "^4.0.0",
     "octokit": "^3.1.2",
     "semver": "^7.0.0"
   },
