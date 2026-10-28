@@ -1,0 +1,3 @@
+[[IgnoredVulns]]
+id = "GHSA-gcqx-w48m-w2h4"
+reason = "deepmerge has no upstream fix; it is a dev-only transitive dependency of jest-config and is never included in the action's production dist"
